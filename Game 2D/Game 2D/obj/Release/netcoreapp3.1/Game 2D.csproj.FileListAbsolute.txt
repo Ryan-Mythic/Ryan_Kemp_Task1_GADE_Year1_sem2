@@ -1,0 +1,14 @@
+C:\Users\snowdrop\source\repos\Game 2D\Game 2D\bin\Release\netcoreapp3.1\Game 2D.exe
+C:\Users\snowdrop\source\repos\Game 2D\Game 2D\bin\Release\netcoreapp3.1\Game 2D.deps.json
+C:\Users\snowdrop\source\repos\Game 2D\Game 2D\bin\Release\netcoreapp3.1\Game 2D.runtimeconfig.json
+C:\Users\snowdrop\source\repos\Game 2D\Game 2D\bin\Release\netcoreapp3.1\Game 2D.runtimeconfig.dev.json
+C:\Users\snowdrop\source\repos\Game 2D\Game 2D\bin\Release\netcoreapp3.1\Game 2D.dll
+C:\Users\snowdrop\source\repos\Game 2D\Game 2D\bin\Release\netcoreapp3.1\Game 2D.pdb
+C:\Users\snowdrop\source\repos\Game 2D\Game 2D\obj\Release\netcoreapp3.1\Game_2D.Form1.resources
+C:\Users\snowdrop\source\repos\Game 2D\Game 2D\obj\Release\netcoreapp3.1\Game 2D.csproj.GenerateResource.cache
+C:\Users\snowdrop\source\repos\Game 2D\Game 2D\obj\Release\netcoreapp3.1\Game 2D.AssemblyInfoInputs.cache
+C:\Users\snowdrop\source\repos\Game 2D\Game 2D\obj\Release\netcoreapp3.1\Game 2D.AssemblyInfo.cs
+C:\Users\snowdrop\source\repos\Game 2D\Game 2D\obj\Release\netcoreapp3.1\Game 2D.csproj.CoreCompileInputs.cache
+C:\Users\snowdrop\source\repos\Game 2D\Game 2D\obj\Release\netcoreapp3.1\Game 2D.dll
+C:\Users\snowdrop\source\repos\Game 2D\Game 2D\obj\Release\netcoreapp3.1\Game 2D.pdb
+C:\Users\snowdrop\source\repos\Game 2D\Game 2D\obj\Release\netcoreapp3.1\Game 2D.genruntimeconfig.cache
