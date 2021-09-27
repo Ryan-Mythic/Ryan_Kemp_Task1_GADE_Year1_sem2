@@ -21,7 +21,7 @@ namespace Game_2D {
 
         public override string ToString() {
             //might need to fix this
-            return typeof(Enemy).Name+" at ["+getX()+","+getY()+"] ("+damage+" DMG)";
+            return typeof(Enemy).Name + " at [" + getX() + ","+getY() + "] (" + damage + " DMG)";
         }
     }
 }

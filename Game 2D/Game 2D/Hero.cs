@@ -17,8 +17,40 @@ namespace Game_2D {
             this.symbol = symbol;
         }
 
-        //again ReturnMove() method not sure which method to override? .... GOES HERE 
-        
+        public override Movement ReturnMove(Movement move /*= Movement.idle*/)
+        {
+            switch(move)
+            {
+                case Movement.idle:
+                    return Movement.idle;
+                case Movement.up:
+                    if (characterVision[0].GetType() == typeof(EmptyTile))
+                    {
+                        return Movement.up;
+                    }
+                    else return Movement.idle;
+                case Movement.right:
+                    if (characterVision[1].GetType() == typeof(EmptyTile))
+                    {
+                        return Movement.right;
+                    }
+                    else return Movement.idle;
+                case Movement.down:
+                    if (characterVision[2].GetType() == typeof(EmptyTile))
+                    {
+                        return Movement.down;
+                    }
+                    else return Movement.idle;
+                case Movement.left:
+                    if (characterVision[3].GetType() == typeof(EmptyTile))
+                    {
+                        return Movement.left;
+                    }
+                    else return Movement.idle;
+            }
+            return Movement.idle;
+        }
+
 
     }
 }

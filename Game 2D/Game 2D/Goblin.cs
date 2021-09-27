@@ -15,8 +15,27 @@ namespace Game_2D {
             do
             {
                 direction = random.Next(0, 4);
-            } while (character)
+            } 
+            while(characterVision[direction].GetType() == typeof(Obstacle) || characterVision[direction].GetType() == typeof(EmptyTile));
+            
+            switch(direction)
+            {
+                case 0:
+                    return Movement.up;
+                case 1:
+                    return Movement.right;
+                case 2:
+                    return Movement.down;
+                case 3:
+                    return Movement.left;
+                default:
+                    return Movement.idle;
+            }
         }
-        //ReturnMove() method not sure which method to override? .... GOES HERE 
+
+        public override string ToString()
+        {
+            return "Goblin " + base.ToString();
+        }
     }
 }

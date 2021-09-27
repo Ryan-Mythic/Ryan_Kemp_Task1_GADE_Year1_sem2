@@ -106,8 +106,13 @@ namespace Game_2D {
             }
         }
 
+        public abstract Movement ReturnMove(Movement move = 0);
+        //{
+        //    return;
+        //}
+
         public override string ToString() {
-            //not sure about this
+            return "Character " + base.ToString();
         }
     }
 }
