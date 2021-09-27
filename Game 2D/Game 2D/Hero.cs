@@ -51,6 +51,12 @@ namespace Game_2D {
             return Movement.idle;
         }
 
+        public override string ToString()
+        {
+            string sOutput;
+            sOutput = "Player stats:" + "\nHP: " + this.HP + "/" + this.maxHP + "\nDamage" + this.damage + "\n[" + x + "," + y + "]";
+            return sOutput;
+        }
 
     }
 }
