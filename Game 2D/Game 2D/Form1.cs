@@ -14,5 +14,9 @@ namespace Game_2D {
             InitializeComponent();
         }
 
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

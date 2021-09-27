@@ -17,9 +17,9 @@ namespace Game_2D {
         public enum Movement {
             idle,               //no movement
             up,
+            right,
             down,
-            left,
-            right
+            left
         }
 
         private Movement movement;
